@@ -33,7 +33,3 @@ body:
       label: 友链地址
       description: 请输入您的友链页面地址。
       placeholder: "如: https://yoursite.com/friends/"
-    validations:
-      required: true
-  - type: input
-    id: friends-repo
