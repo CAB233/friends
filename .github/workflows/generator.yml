@@ -22,7 +22,7 @@ jobs:
       run: |
         python generator/main.py
     - name: Commit & Push
-      uses: action-x/commit@v2.9
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'output'
